@@ -22,18 +22,20 @@ https://datalens.yandex/t4nkj45gmtekc?_share_link=public
 
 README.md — описание проекта и структуры репозитория.
 
-Итоговая_работа.docx — полный текст итоговой аттестационной работы.
+Итоговая_работа.docx — текст аттестационной работы.
 
-Analysis_Ecommerce.ipynb — Jupyter Notebook с полным кодом проекта (ETL, EDA, ABC-XYZ, RFM, ML).
+Analysis_Ecommerce.ipynb — Jupyter Notebook с кодом проекта (ETL, EDA, ABC-XYZ, RFM, ML).
 
-input/ — папка с исходными данными (ecommerce_orders.csv).
+input/ — папка с исходными датасетом (ecommerce_orders.csv).
 
-output/ — папка с результатами работы: очищенный датасет, таблицы ABC-XYZ и RFM, датасет для BI-системы и графики (Рис. 1 – Рис. 6 в формате PNG).
+output/ — папка с результатами работы: очищенный датасет, таблицы ABC-XYZ и RFM, датасет для дашборда BI-системы и графики (Рис. 1 – Рис. 6 в формате PNG).
 
 
 Запуск:
 
-1. Для запуска кода достаточно двух файлов: Analysis_Ecommerce.ipynb и ecommerce_orders.csv.
+Код написан с учетом различных вариантов размещения исходных файлов и является устойчивым к изменениям структуры папок.
+
+1. Для запуска кода необходимо два файла: Analysis_Ecommerce.ipynb и ecommerce_orders.csv.
 2. Исходный датасет ecommerce_orders.csv должен находиться в папке input, расположенной в той же директории, что и файл блокнота Analysis_Ecommerce.ipynb или просто рядом с блокнотом.
 3. Откройте Analysis_Ecommerce.ipynb в любой среде Python (локально в Jupyter Notebook или в облаке).
 4. Нажмите Run All (Выполнить всё).
