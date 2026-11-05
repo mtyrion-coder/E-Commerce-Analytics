@@ -10,18 +10,26 @@ https://www.kaggle.com/datasets/mohammedslimane/ecommerce-orders
 Интерактивный дашборд в Yandex DataLens: 
 https://datalens.yandex/t4nkj45gmtekc?_share_link=public
 
+
 Описание проекта:
 
 В работе проведен полный цикл анализа данных интернет-магазина: от очистки и разведочного анализа (ETL и EDA) до сегментации клиентов и прогнозирования возвратов заказов с помощью машинного обучения.
 
+
 Структура репозитория:
 
 Ссылка https://github.com/mtyrion-coder/E-Commerce-Analytics
+
 README.md — описание проекта и структуры репозитория.
+
 Итоговая_работа.docx — полный текст итоговой аттестационной работы.
+
 Analysis_Ecommerce.ipynb — Jupyter Notebook с полным кодом проекта (ETL, EDA, ABC-XYZ, RFM, ML).
+
 input/ — папка с исходными данными (ecommerce_orders.csv).
+
 output/ — папка с результатами работы: очищенный датасет, таблицы ABC-XYZ и RFM, датасет для BI-системы и графики (Рис. 1 – Рис. 6 в формате PNG).
+
 
 Запуск:
 
@@ -32,11 +40,13 @@ output/ — папка с результатами работы: очищенн�
 
 Все сгенерированные файлы (очищенный датасет, таблицы ABC-XYZ и RFM, датасет для BI-системы, а также графики Figure_1 – Figure_6) автоматически сохраняются в папку output, которая создается рядом с файлом блокнота. 
 
+
 Инструменты и технологии:
 
 Python (Pandas, NumPy, Matplotlib, Seaborn).
 Машинное обучение (Scikit-learn, XGBoost, Statsmodels).
 Yandex DataLens (построение интерактивного дашборда).
+
 
 Ключевые результаты:
 
